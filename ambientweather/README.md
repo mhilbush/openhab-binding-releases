@@ -4,8 +4,4 @@
 
 Put jar in addons
 
-Get Application key and API key from your Ambient Weather dashboard.
-
-Add a bridge thing and enter the Application key and API key in the bridge thing configuration.
-
-Add a weather station thing and enter its MAC address in the weather station thing configuration.
+See full README [here](https://github.com/mhilbush/openhab2-addons/blob/ambient-weather-binding/addons/binding/org.openhab.binding.ambientweather/README.md).
