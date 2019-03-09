@@ -6,7 +6,7 @@
 
 - Uninstall any other version of the squeezebox binding that was installed through PaperUI or `conf/services/addons.cfg`
 
-- Install the upnp feature using this Karaf console command. Bindings installed in the addons directory don't have their dependencies automatically installed. The SqueezeBox binding depends on upnp, which might've been uninstalled when you uninstalled the binding.
+- Install the upnp feature using the following Karaf console command. Note: Bindings installed in the addons directory don't have their dependencies automatically installed. The SqueezeBox binding depends on upnp, which might've been uninstalled when you uninstalled the binding.
 
 ```
 feature:install openhab-transport-upnp
