@@ -1,4 +1,4 @@
-See README here. This will be updated as I work on improving the documentation (it's a little sparse at the moment).
+See README at the following link. I will update that README as I add features and improve the documentation (it's a little sparse at the moment).
 
 https://github.com/mhilbush/openhab2-addons/tree/doorbird-new/bundles/org.openhab.binding.doorbird
 
@@ -8,10 +8,17 @@ Download this jar file and place it in your addons directory **before** download
 
 Once you've downloaded and installed the dependencies jar, download the *org.openhab.binding.doorbird-2.5.0-SNAPSHOT.jar* jar file and place it in the addons directory.
 
-You may need to delete and readd the thing in order to pick up the latest channel definitions.
+If you're already running the bining, after you install a new version you may need to delete and readd the thing in order to pick up the latest channel definitions.
 
 There are still some features missing from the binding:
 
 - channel for video stream (or URL of video stream)
-- channel(s) for doorbell and motion history
 - others???
+
+If you have any feedback on bugs and/or features, please post on this community thread.
+
+https://community.openhab.org/t/doorbird-binding/73564
+
+**NOTE:** The binding depends on a encryption library called libsodium. 
+I don't know if this library will work on a pi. 
+If you are running a pi and confirm if it works or not, please post your experience using the above link.
