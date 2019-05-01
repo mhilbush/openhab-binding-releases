@@ -8,7 +8,7 @@ Download this jar file and place it in your addons directory **before** download
 
 **NOTE:** The binding depends on a encryption library called libsodium. 
 I don't know if this library will work on a pi. 
-If you are running a pi and confirm if it works or not, please post your experience using the above link.
+If you're running a pi and can confirm if it works or not, please post your experience using the above link.
 
 Once you've downloaded and installed the dependencies jar, download the *org.openhab.binding.doorbird-2.5.0-SNAPSHOT.jar* jar file and place it in the addons directory.
 
