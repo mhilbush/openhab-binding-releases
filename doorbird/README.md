@@ -17,6 +17,7 @@ If you're already running the bining, after you install a new version you may ne
 There are still some features missing from the binding:
 
 - channel for video stream (or URL of video stream)
+- channel for RFID
 - others???
 
 If you have any feedback on bugs and/or features, please post on this community thread.
