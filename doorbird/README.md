@@ -3,7 +3,7 @@ See README at the following link. I will update that README as I add features an
 https://github.com/mhilbush/openhab2-addons/tree/doorbird-new/bundles/org.openhab.binding.doorbird
 
 This binding depends on some 3rd party libraries that are not part of the openHAB distribution.
-These libraries are contained in the *doorbird-deps-1.0.1.jar* file located in this repository.
+These libraries are contained in the *doorbird-deps-1.0.x.jar* file located in this repository.
 Download this jar file and place it in your addons directory **before** downloading and installing the *org.openhab.binding.doorbird-2.5.0-SNAPSHOT.jar*.
 
 **NOTE:** The binding depends on a encryption library called libsodium. 
