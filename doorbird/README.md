@@ -1,16 +1,16 @@
-See README at the following link. I will update that README as I add features and improve the documentation (it's a little sparse at the moment).
+See full README at the following link.
 
 https://github.com/mhilbush/openhab2-addons/tree/doorbird-new/bundles/org.openhab.binding.doorbird
 
 This binding depends on some 3rd party libraries that are not part of the openHAB distribution.
-These libraries are contained in the *doorbird-deps-1.0.x.jar* file located in this repository.
-Download this jar file and place it in your addons directory **before** downloading and installing the *org.openhab.binding.doorbird-2.5.0-SNAPSHOT.jar*.
+Download these dependencies and place in your addons directory **before** you download the doorbird jar file.
+- com.goterl.lazycode.lazysodium-java-4.0.1.jar
+- jna-5.3.0.jar
 
-**NOTE:** The binding depends on a encryption library called libsodium. 
-I don't know if this library will work on a pi. 
-If you're running a pi and can confirm if it works or not, please post your experience using the above link.
+The jna-5.3.0.jar might not be needed as it might be installed by another binding.
+You can check if it's already installed by running **list -s | grep jna** in the Karaf console.
 
-Once you've downloaded and installed the dependencies jar, download the *org.openhab.binding.doorbird-2.5.0-SNAPSHOT.jar* jar file and place it in the addons directory.
+Once you've downloaded and installed the dependencies, download the *org.openhab.binding.doorbird-2.5.0-SNAPSHOT.jar* jar file and place it in the addons directory.
 
 If you're already running the bining, after you install a new version you may need to delete and readd the thing in order to pick up the latest channel definitions.
 
