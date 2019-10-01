@@ -5,9 +5,9 @@ https://github.com/mhilbush/openhab2-addons/tree/doorbird-new/bundles/org.openha
 This binding depends on some 3rd party libraries that are not part of the openHAB distribution.
 Download these dependencies and place in your addons directory **before** you download the doorbird jar file.
 - com.goterl.lazycode.lazysodium-java-4.0.1.jar
-- jna-5.3.0.jar
+- jna-5.4.0.jar
 
-The jna-5.3.0.jar might not be needed as it might be installed by another binding.
+The jna-5.4.0.jar might not be needed as it might be installed by another binding.
 You can check if it's already installed by running **list -s | grep jna** in the Karaf console.
 
 Once you've downloaded and installed the dependencies, download the *org.openhab.binding.doorbird-2.5.0-SNAPSHOT.jar* jar file and place it in the addons directory.
