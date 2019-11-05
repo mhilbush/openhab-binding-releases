@@ -1,6 +1,6 @@
 See full README at the following link.
 
-https://github.com/mhilbush/openhab2-addons/tree/doorbird-new/bundles/org.openhab.binding.doorbird
+https://github.com/mhilbush/openhab2-addons/tree/doorbird-a1081/bundles/org.openhab.binding.doorbird
 
 This binding depends on some 3rd party libraries that are not part of the openHAB distribution.
 Download these dependencies and place in your addons directory **before** you download the doorbird jar file.
