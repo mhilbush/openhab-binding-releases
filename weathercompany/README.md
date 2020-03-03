@@ -1,3 +1,7 @@
+## Weather Company Binding - Test Releases
+
+**The version in the distrbution is the most current.**
+
 See the README [here](https://github.com/mhilbush/openhab2-addons/blob/weather-company-binding/addons/binding/org.openhab.binding.weathercompany/README.md).
 
 Remember, when you install a new version, you may need to delete and readd 
