@@ -2,7 +2,5 @@
 
 **The version in the distrbution is the most current.**
 
-See full README [here](https://github.com/mhilbush/openhab2-addons/blob/ambient-weather-binding/bundles/org.openhab.binding.ambientweather/README.md).
-
-If you run into issues, please post on the community thread here.
+If you run into issues, please post on the community thread here, or open an issue on GitHub.
 https://community.openhab.org/t/ambient-weather-weather-station-binding/59315
