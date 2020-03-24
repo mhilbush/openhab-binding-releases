@@ -1,6 +1,6 @@
 See full README at the following link.
 
-https://github.com/mhilbush/openhab2-addons/tree/doorbird-a1081/bundles/org.openhab.binding.doorbird
+https://github.com/mhilbush/openhab2-addons/blob/master/bundles/org.openhab.binding.doorbird/README.md
 
 Download these dependencies and place in your addons directory **before** you download the doorbird jar file.
 - jna-5.5.0.jar
