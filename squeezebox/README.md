@@ -14,9 +14,6 @@ feature:install openhab-transport-upnp
 
 - Place the new squeezebox binding into the `openhab2/addons` directory
 
-- To set the callback URL, in Paper UI under Configuration->Bindings, add the callback URL to the Squeezebox binding configuration.
-
-  - URL should be of the form http://OPENHAB-IP-ADDRESS:8080/
 
 If you need to see what's going on, enable debugging
 
