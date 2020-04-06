@@ -1,5 +1,8 @@
 # Squeezebox dev/test releases
 
+See README
+https://github.com/mhilbush/openhab2-addons/blob/squeeze-rate/bundles/org.openhab.binding.squeezebox/README.md
+
 ## How To Install
 
 - Download the jar file from this repo (click on the jar file, then press the **Download** button)
