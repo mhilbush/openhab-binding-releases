@@ -16,6 +16,8 @@ feature:install openhab-transport-upnp
 
 - Place the new squeezebox binding into the `openhab3/addons` directory
 
+- Delete and readd the player thing(s) in order to pick up any new channels
+
 
 If you need to see what's going on, enable debugging
 
