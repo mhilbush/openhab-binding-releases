@@ -6,7 +6,7 @@ See [README](https://github.com/mhilbush/openhab2-addons/blob/squeeze-rate/bundl
 
 - Download the jar file from this repo (click on the jar file, then press the **Download** button)
 
-- Uninstall any other version of the squeezebox binding that was installed through PaperUI or `conf/services/addons.cfg`
+- Uninstall any other version of the squeezebox binding that was installed through the UI or `conf/services/addons.cfg`
 
 - Install the upnp feature using the following Karaf console command. Note: Bindings installed in the addons directory don't have their dependencies automatically installed. The SqueezeBox binding depends on upnp, which might've been uninstalled when you uninstalled the binding.
 
