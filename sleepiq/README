@@ -2,6 +2,8 @@
 2. Add this binding to the addons folder
 3. Enable DEBUG level logging so we can see what's going on
       log:set DEBUG org.openhab.binding.sleepiq
+      
+Optional
 4. Delete and create bed thing to pick up removal of readonly state on SleepNumber channel
 5. Try setting sleep number of left or right chamber (observe log to see what happens)
       Ex: openhab:send Your_SleepNumber_Item 50
