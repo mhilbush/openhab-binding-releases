@@ -7,3 +7,21 @@ Optional
 4. Delete and create bed thing to pick up removal of readonly state on SleepNumber channel
 5. Try setting sleep number of left or right chamber (observe log to see what happens)
       Ex: openhab:send Your_SleepNumber_Item 50
+
+Example item definitions
+String    Bed_Right_FirstName                  "First Name [%s]"                            {channel="sleepiq:dualBed:account:master:right#firstName"}
+Number    Bed_Right_SleepGoal                  "Sleep Goal Minutes [%.0f]"                  {channel="sleepiq:dualBed:account:master:right#sleepGoalMinutes"}
+Switch    Bed_Right_InBed                      "In Bed [%s]"                                {channel="sleepiq:dualBed:account:master:right#inBed"}
+Number    Bed_Right_SleepNumber                "Sleep Number [%.0f]"                        {channel="sleepiq:dualBed:account:master:right#sleepNumber"}
+Number    Bed_Right_Pressure                   "Pressure [%.2f]"                            {channel="sleepiq:dualBed:account:master:right#pressure"}
+String    Bed_Right_LastLink                   "Last Update [%s]"                           {channel="sleepiq:dualBed:account:master:right#lastLink"}
+Number    Bed_Right_AlertId                    "Alert ID [%.2f]"                            {channel="sleepiq:dualBed:account:master:right#alertId"}
+String    Bed_Right_AlertMessage               "Alert Message [%s]"                         {channel="sleepiq:dualBed:account:master:right#alertDetailedMessage"}
+Number    Bed_Right_DailySleepIQ               "Daily Sleep IQ [%.0f]"                      {channel="sleepiq:dualBed:account:master:right#todaySleepIQ"}
+Number    Bed_Right_DailyHeartRate             "Daily Heart Rate [%.0f]"                    {channel="sleepiq:dualBed:account:master:right#todayAverageHeartRate"}
+Number    Bed_Right_DailyRespirationRate       "Daily Respiration Rate IQ [%.0f]"           {channel="sleepiq:dualBed:account:master:right#todayAverageRespirationRate"}
+String    Bed_Right_Message                    "Daily Message [%s]"                         {channel="sleepiq:dualBed:account:master:right#todayMessage"}
+Number    Bed_Right_DailyDuration              "Daily Sleep Duration [%.0f]"                {channel="sleepiq:dualBed:account:master:right#todaySleepDurationSeconds"}
+Number    Bed_Right_MonthlySleepIQ             "Monthly Avg Sleep IQ [%.0f]"                {channel="sleepiq:dualBed:account:master:right#monthlySleepIQ"}
+Number    Bed_Right_MonthlyHeartRate           "Monthly Avg Heart Rate [%.0f]"              {channel="sleepiq:dualBed:account:master:right#monthlyAverageHeartRate"}
+Number    Bed_Right_MonthlyRespirationRate     "Monthly Avg Respiration Rate IQ [%.0f]"     {channel="sleepiq:dualBed:account:master:right#monthlyAverageRespirationRate"}
