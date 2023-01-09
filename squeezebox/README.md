@@ -14,7 +14,7 @@ See [README](https://github.com/mhilbush/openhab2-addons/blob/squeeze-rate/bundl
 feature:install openhab-transport-upnp
 ```
 
-- Place the new squeezebox binding into the `openhab3/addons` directory
+- Place the new squeezebox binding into the `openhab/addons` directory
 
 - Delete and readd the player thing(s) in order to pick up any new channels
 
